@@ -1,0 +1,6 @@
+-r base.txt
+pytest==4.4.1
+pytest-cov==2.7.1
+pytest-xdist==1.28.0
+requests==2.21.0
+coveralls==1.7.0
