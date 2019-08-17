@@ -1,2 +1,11 @@
 fastapi==0.35.0
 uvicorn==0.8.6
+psycopg2-binary
+
+# accent stuff
+git+https://github.com/accent-starlette/starlette-admin.git@master#egg=starlette-admin
+git+https://github.com/accent-starlette/starlette-auth.git@master#egg=starlette-auth
+git+https://github.com/accent-starlette/starlette-core.git@master#egg=starlette-core
+# git+https://github.com/accent-starlette/starlette-files.git@master#egg=starlette-files[s3]
+
+wtforms-alchemy
